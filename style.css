@@ -1,5 +1,6 @@
 @import url(style/reset.css);
 @import url(style/header.css);
+@import url(style/banner.css);
 
 /* fonte */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
@@ -9,13 +10,15 @@
     --cinza-claro: #667085;
     --vinho: #8E2424;
     --branco: #FFFFFF;
+    --preto: #101828;
 
     --fonte-principal: 'Inter', sans-serif;
 }
 
 body {
     font-family: var(--fonte-principal);
-    background-color: var(--branco);   
+    background-color: var(--branco);
+    font-weight: 400;   
 }
 
 .container {
