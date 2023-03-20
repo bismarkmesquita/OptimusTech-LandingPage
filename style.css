@@ -1,6 +1,7 @@
 @import url(style/reset.css);
 @import url(style/header.css);
 @import url(style/banner.css);
+@import url(style/metricas.css);
 
 /* fonte */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
@@ -19,6 +20,7 @@ body {
     font-family: var(--fonte-principal);
     background-color: var(--branco);
     font-weight: 400;   
+    font-size: 16px;
 }
 
 .container {
