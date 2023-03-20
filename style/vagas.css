@@ -1,0 +1,46 @@
+.vagas {
+    padding: 3em;
+}
+
+.vagas-content {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.vagas-card {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.vagas-card h2 {
+    color: var(--preto);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.vagas-subcard {
+    padding: 24px;
+    border: solid 2px #EAECF0;
+    border-radius: 16px;
+}
+
+.vagas-subcard p {
+    color: var(--preto);
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 32px;
+}
+
+.vagas-descricao {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.vagas-descricao p {
+    color: var(--cinza-claro);
+    font-size: 16px;
+    margin-bottom: 0px;
+}
