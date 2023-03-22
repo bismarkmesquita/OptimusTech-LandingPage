@@ -1,0 +1,42 @@
+.depoimentos {
+    padding: 3em 0;
+}
+
+.depoimentos-content {
+    background-color: rgba(196, 25, 25, 0.03);
+    border-radius: 16px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.depoimentos-content span {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--vinho);
+    margin-bottom: 16px;
+}
+
+.depoimentos-content h2 {
+    font-size: 36px;
+    font-weight: 500;
+    color: var(--preto);
+    margin-bottom: 32px;
+}
+
+.perfil {
+    text-align: center;
+}
+
+.nome-depoimentos {
+    color: var(--preto);
+    font-weight: 500;
+    margin: 16px 0 4px 0;
+}
+
+.profissao-depoimentos {
+    color: var(--cinza-claro);
+    font-size: 14px;
+}
