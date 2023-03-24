@@ -10,6 +10,8 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+
+    padding: 64px 0;
 }
 
 .depoimentos-content span {
@@ -21,6 +23,7 @@
 
 .depoimentos-content h2 {
     font-size: 36px;
+    line-height: 44px;
     font-weight: 500;
     color: var(--preto);
     margin-bottom: 32px;
