@@ -1,11 +1,12 @@
 header {
     font-weight: 500;
-    line-height: 24px;
-    padding: 28px 0;
+    line-height: 1.5em;
+    padding: 1.75em 0;
 }
 
 .header {
     display: flex;
+    align-items: center;
     flex-direction: row;
     justify-content: space-between;
 }
@@ -30,14 +31,19 @@ header {
 
 .logo a {
     text-decoration: none;
-    font-size: 18px;
+    font-size: 1.125em;
     color: var(--cinza-escuro);
+}
+
+.menu .fa-bars {
+    display: none;
 }
 
 .menu ul {
     display: flex;
+    align-items: center;
     flex-direction: row;
-    gap: 32px;
+    gap: 2em;
 }
 
 .menu ul li a {
@@ -48,7 +54,7 @@ header {
 .header-content-02 {
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: 2em;
     font-family: var(--fonte-principal);
 }
 
@@ -58,7 +64,7 @@ header {
     border: none;
     cursor: pointer;
     font-family: var(--fonte-principal);
-    font-size: 16px;
+    font-size: 1em;
     font-weight: 500    ;
 }
 
@@ -70,6 +76,59 @@ header {
     padding: 10px;
     cursor: pointer;
     font-family: var(--fonte-principal);
-    font-size: 16px;
+    font-size: 1em;
     font-weight: 500    ;
+}
+
+@media screen and (max-width: 776px) {
+    .header {
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .header-content-01 {
+        align-items: flex-start;
+        gap: 16px;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+    }
+
+    .menu .fa-bars {
+        display: block;
+        margin-left: 32.86px;
+    }
+
+    .menu .fa-bars.reponsive {
+        margin-left: 0;
+    }
+    
+    .menu ul.menu-nav {
+        display: none;
+    }
+
+    .menu ul.menu-nav.reponsive{
+        
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 2em;
+    }
+
+    .header-content-02 {
+        gap: 1em;
+    }
+
+    .button-entrar {
+        font-size: 14px;
+    }
+
+    .button-cadastrar {
+        font-size: 14px;
+        padding: 8px;
+    }
 }

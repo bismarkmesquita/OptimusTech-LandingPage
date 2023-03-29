@@ -5,19 +5,19 @@
 .metricas-content {
     display: flex;
     flex-direction: row;
-    gap: 32px;
+    gap: 2em;
     justify-content: center;
 }
 
 .metricas-card h2 {
     color: var(--vinho);
-    font-size: 60px;
+    font-size: 3.75em;
     font-weight: 600;
 }
 
 .metricas-card h3 {
     color: var(--preto);
-    font-size: 18px;
+    font-size: 1.125em;
     font-weight: 500;
     margin: 12px 0 8px 0;
 }

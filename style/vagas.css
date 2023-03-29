@@ -5,42 +5,42 @@
 .vagas-content {
     display: flex;
     flex-direction: column;
-    gap: 64px;
+    gap: 4em;
 }
 
 .vagas-card {
     display: flex;
     flex-direction: column;
-    gap: 48px;
+    gap: 3em;
 }
 
 .vagas-card h2 {
     color: var(--preto);
-    font-size: 20px;
+    font-size: 1.25em;
     font-weight: 500;
 }
 
 .vagas-subcard {
-    padding: 24px;
+    padding: 1.25em;
     border: solid 2px #EAECF0;
-    border-radius: 16px;
+    border-radius: 1em;
 }
 
 .vagas-subcard p {
     color: var(--preto);
-    font-size: 18px;
+    font-size: 1.125em;
     font-weight: 500;
-    margin-bottom: 32px;
+    margin-bottom: 2em;
 }
 
 .vagas-descricao {
     display: flex;
     flex-direction: row;
-    gap: 24px;
+    gap: 1.5em;
 }
 
 .vagas-descricao p {
     color: var(--cinza-claro);
-    font-size: 16px;
+    font-size: 1em;
     margin-bottom: 0px;
 }

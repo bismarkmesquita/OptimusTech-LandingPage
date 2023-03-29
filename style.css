@@ -32,3 +32,28 @@ body {
     margin: 0 auto;
     padding: 0 2%;
 }
+
+@media screen and (min-width: 776px) {
+    body {
+        font-size: 16px;
+    }    
+}
+
+
+/*  
+Proporções
+Fonte padrão: 16px;
+
+1.125em: 18px;
+1.25em: 20px;
+1.5em: 24px;
+1.75em: 28px;
+2em: 32px;
+2.25em: 36px;
+2.5em: 40px;
+2.75em: 44px;
+3em: 48px;
+3.75em: 60px;
+4em: 64px;
+
+*/
