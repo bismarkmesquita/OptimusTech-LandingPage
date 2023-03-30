@@ -43,3 +43,10 @@
     color: var(--cinza-claro);
     font-size: 14px;
 }
+
+@media screen and (max-width: 776px) {
+    .depoimentos-content h2 {
+        font-size: 1.5em;
+        line-height: 30px;
+    }
+}

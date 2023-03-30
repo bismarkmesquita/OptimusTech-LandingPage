@@ -5,6 +5,7 @@
 .metricas-content {
     display: flex;
     flex-direction: row;
+    align-items: flex-start;
     gap: 2em;
     justify-content: center;
 }
@@ -25,4 +26,16 @@
 .metricas-card p {
     color: var(--cinza-claro);
     max-width: 280px;
+}
+
+@media screen and (max-width: 776px) {
+    .metricas-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .metricas-card h2 {
+        font-size: 2em;
+    }
 }

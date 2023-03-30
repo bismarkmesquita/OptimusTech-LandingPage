@@ -24,3 +24,10 @@
 
     max-width: 791px;
 }
+
+@media screen and (max-width: 776px) {
+    .banner h1 {
+        font-size: 2em;
+        line-height: 40px;
+    } 
+}

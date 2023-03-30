@@ -31,6 +31,7 @@
 }
 
 .rodape-content .rodape-email input {
+    font-size: 16px;
     width: 360px;
     height: 48px;
     background: #FFFFFF;
@@ -61,4 +62,25 @@
 
 .rodape-content .copyright {
     font-size: 1em;
+}
+
+@media screen and (max-width: 776px) {
+    .rodape-content h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .rodape-content p {
+        font-size: 1em;
+        line-height: 20px;
+    }
+
+    .rodape-email {
+        flex-direction: column;
+    }
+
+    .rodape-content .copyright {
+        font-size: 14px;
+        text-align: center;
+    }
 }

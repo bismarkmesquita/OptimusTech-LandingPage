@@ -30,3 +30,18 @@
 .talentos-content img {
     width: 100%;
 }
+
+@media screen and (max-width: 776px) {
+    .talentos-content {
+        text-align: center;
+    }
+
+    .talentos-content h2 {
+        font-size: 1.5em;
+        line-height: 40px;
+    }
+
+    .talentos-content p {
+        line-height: 30px;
+    }
+}
