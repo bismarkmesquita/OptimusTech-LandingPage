@@ -79,6 +79,10 @@
         flex-direction: column;
     }
 
+    .rodape-content .rodape-email input {
+        width: 280px;
+    }
+    
     .rodape-content .copyright {
         font-size: 14px;
         text-align: center;

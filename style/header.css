@@ -91,32 +91,39 @@ header {
         gap: 16px;
     }
 
+    .header-content-01 .logo {
+        display: none;
+    }
+
     .menu {
+        position: absolute;
+        left: 16px;
+
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
         gap: 16px;
     }
 
     .menu .fa-bars {
         display: block;
-        margin-left: 32.86px;
-    }
-
-    .menu .fa-bars.reponsive {
-        margin-left: 0;
     }
     
     .menu ul.menu-nav {
         display: none;
     }
 
+    .menu ul li a {
+        color: var(--branco);
+    }
+
     .menu ul.menu-nav.reponsive{
-        
+        background-color: var(--vinho);
         display: flex;
-        align-items: center;
+        align-items: flex-start;
         flex-direction: column;
         gap: 2em;
+        padding: 1em;
     }
 
     .header-content-02 {
